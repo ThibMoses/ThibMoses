@@ -1,0 +1,27 @@
+body{
+      margin: 0%;
+      padding: 0%;
+}
+nav{
+      display: inline-flex;
+      margin-left: 1%;
+}
+nav a{
+      padding: 2%;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+}
+nav a:hover{
+      background-color: rgb(236, 236, 236);
+}
+h1{
+      margin: 0%;
+      padding: 0%;
+      float: left;
+}
+header{
+      background-color: rgb(206, 206, 206);
+      margin: 0%;
+      padding: 1%;
+}
