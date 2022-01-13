@@ -25,3 +25,17 @@ header{
       margin: 0%;
       padding: 1%;
 }
+.nav-right{
+      display: inline-flex;
+      float: right;
+      margin-right: 2%;
+}
+.nav-right img{
+      width: 40px;
+      margin-right: 6%;
+}
+.nav-right span{
+      margin-top: 5%;
+      display: block;
+      width: 170px;
+}
