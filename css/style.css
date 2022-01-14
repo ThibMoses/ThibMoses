@@ -1,44 +1,72 @@
 body{
       margin: 0%;
       padding: 0%;
+      display: block;
 }
 nav{
       display: inline-flex;
-      margin-left: 1%;
+      margin-left: 2%;
 }
 nav a{
       padding: 2%;
       width: 100px;
       text-align: center;
       text-decoration: none;
+      color: rgb(41, 41, 41);
 }
 nav a:hover{
       background-color: rgb(236, 236, 236);
+      padding: 2%;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+      color: rgb(41, 41, 41);
 }
 h1{
       margin: 0%;
       padding: 0%;
+      margin-top: -0.45%;
       float: left;
 }
 header{
       background-color: rgb(206, 206, 206);
       margin: 0%;
       padding: 1%;
+      width: 100%;
+      display: block;
+      position: fixed;
+      z-index: 1;
 }
 .nav-right{
       display: inline-flex;
       float: right;
       margin-right: 2%;
+      margin-top: -5px;
 }
 .nav-right img{
-      margin-top: 2%;
-      width: 25px;
+      width: 50px;
       margin-right: 6%;
       padding-left: 10px;
       padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 50%;
+}
+.nav-right img:hover{
+      background-color: aliceblue;
 }
 .nav-right span{
       margin-top: 4%;
       display: block;
       width: 170px;
+}
+div.container .card{
+     float: left;
+     margin-right: 30px;
+     margin-left: 6px;
+     width: 30%;
+     margin-top: 10%;
+}
+div.container{
+      position: relative;
 }
